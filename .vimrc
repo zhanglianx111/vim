@@ -36,9 +36,17 @@ set cul "高亮光标所在行
 set cuc
 set shortmess=atI   " 启动的时候不显示那个援助乌干达儿童的提示  
 set go=             " 不要图形按钮  
+
 "color desert     " 设置背景主题  
-color ron     " 设置背景主题  
+"color Dark2     " 设置背景主题  
+"color night " 设置背景主题  
+"color sea " 设置背景主题  
+"color beauty256 " 设置背景主题  
+"color Green "设置背景主题  
+"color Black "设置背景主题  
+color molokai "设置背景主题  
 "color torte     " 设置背景主题  
+
 "set guifont=Courier_New:h10:cANSI   " 设置字体  
 "autocmd InsertLeave * se nocul  " 用浅色高亮当前行  
 autocmd InsertEnter * se cul    " 用浅色高亮当前行  
@@ -418,6 +426,7 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 "
 " original repos on github
+Bundle 'fatih/vim-go'
 Bundle 'tpope/vim-fugitive'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'Yggdroot/indentLine'
@@ -452,6 +461,8 @@ Bundle 'Django-Projects'
 
 "Bundle 'FredKSchott/CoVim'
 "Bundle 'djangojump'
+"statusline
+Bundle 'vim-airline/vim-airline'
 " ...
 let g:html_indent_inctags = "html,body,head,tbody"
 let g:html_indent_script1 = "inc"
