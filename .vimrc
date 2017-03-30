@@ -426,7 +426,7 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 "
 " original repos on github
-Bundle 'fatih/vim-go'
+Bundle 'faith/vim-go'
 Bundle 'tpope/vim-fugitive'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'Yggdroot/indentLine'
